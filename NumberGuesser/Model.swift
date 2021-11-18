@@ -12,7 +12,7 @@ class Model {
         return guess == self.target
     }
     
-    func compare (guess: Int!) -> Int {
+    func compareTo (guess: Int!) -> Int {
         var compareResult = 0
         
         if guess > self.target {

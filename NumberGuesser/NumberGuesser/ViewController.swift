@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         var response: String!
         
         if let guess = Int(self.inputField.text!) {
-            switch self.model.target.compareTo(guess) {
+            switch self.model.compareTo(guess) {
                 case -1:
                     response = "kleiner"
                 case 1:
