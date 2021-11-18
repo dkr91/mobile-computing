@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var TextFiield: UITextField!
+    @IBOutlet weak var Button: UIButton!
+    
+    @IBOutlet weak var NumberField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
