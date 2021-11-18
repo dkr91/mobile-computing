@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  NumberGuesser
 //
-//  Created by Stefan Hemberger on 14.10.21.
+//  Created by Daniel Kaindl-Rigler on 14.10.21.
 //
 
 import UIKit
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         var response: String!
         
         if let guess = Int(self.inputField.text!) {
-            switch compareTo() {
+            switch self.model.target.compareTo(guess) {
                 case -1:
                     response = "kleiner"
                 case 1:
